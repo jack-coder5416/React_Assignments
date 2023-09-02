@@ -1,0 +1,39 @@
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image{
+  width: 100%;
+}
+.bg-image {
+  /* The image used */
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 700;
+  
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  z-index: 2;
+  top:20%;
+  position: absolute;
+  margin-left: 10%;
+  width: 47%;
+  padding: 10px;
+  font-weight: 500px;
+}

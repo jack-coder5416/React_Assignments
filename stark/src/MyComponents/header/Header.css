@@ -1,0 +1,39 @@
+.navbar{
+    top:0;
+    position: fixed;
+    width:100%;
+    background-color: #f6f6Eb;
+    height:8%;
+    display: flex;
+    flex-direction: row;
+}
+.image-brand{
+    height:50px;
+    width: 50px;
+    margin-left:8%
+}
+.item-heading{
+    padding: 11px;
+    margin-left: 5%;
+    color:#381fd1;
+    font-weight: 700;
+}
+.button{
+    border-radius: 4px;
+    background-color: #381fd1;
+    color:white;
+    font-family: "ArminGrotesk";
+    height: 60%;
+    width: 18%;
+    margin-left: 3%;
+    margin-top:0.8%;
+    margin-bottom: 0.5%;
+    text-align: center;
+
+}
+
+.button:hover{
+    background-color: rgb(59 130 246/0.5);
+    color:rgba(218, 215, 215, 0.756);
+
+}

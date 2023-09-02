@@ -1,0 +1,22 @@
+.grid-body-container{
+    direction: ltr;
+    /* margin-right: 0%; */
+    margin-left: 4%;
+    flex-direction: column;
+    display: flex;
+    >.grid-body-heading{
+        font-weight: 800;
+        color: #10284b;
+        font-size: 42px;
+        margin-top: 5%;
+    }
+    >.grid-body-subheading{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    >.card-grid{
+        display: flex;
+        flex-direction: row;
+    
+    }
+}

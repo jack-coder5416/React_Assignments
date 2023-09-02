@@ -1,0 +1,81 @@
+.body-container{
+    padding :0px;
+    display: flex;
+    flex-direction: row;
+    left:0;
+    right:0;
+}
+.image-body-card{
+    width:65%;
+    height:70%;
+    border: 1px solid #333;
+}
+.column-body-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 18%;
+    margin-right: 0%;
+    justify-content: space-between;
+}
+.text-body-card{
+    margin-left: 8%;
+    margin-top: 18%;
+    margin-right: 0%;
+    
+}
+.heading-body-container{
+    justify-content: space-between;
+    font-family:  "Monument Extended", "Helvetica", Arial, sans-serif;
+    font-size: 36px;
+    color: #d1d0d0fd;
+}
+.heading-body-container-second{
+    justify-content: space-between;
+    font-family:  "Monument Extended", "Helvetica", Arial, sans-serif;
+    font-size: 36px;
+    color: #121111fd;
+}
+.button-body-card{
+    margin-top: 2%;
+    margin-left:8%;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-around; */
+}
+.button-btn{
+    
+    width: 210px; /* Adjust the width as needed */
+    background-color: #50A584;
+    border: 2px solid #50A584;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family:  "Monument Extended", "Helvetica", Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+.button-btn:hover {
+    background-color: white; /* Change background color on hover */
+    color: #50A584; /* Change text color on hover */
+    border-color: #fff;
+}
+.button-simple{
+     background-color: #76747460;
+     margin-left: 5%;
+     width: 210px;
+}
+.social-handles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align the social handles to the right */
+  }
+  
+  .social-handle {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
